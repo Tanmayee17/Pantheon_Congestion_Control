@@ -18,7 +18,6 @@ cd Python-2.7.18
 ./configure --prefix=/opt/python2.7
 make -j$(nproc)
 sudo make install
-sudo ln -s /opt/python2.7/bin/python2.7 /usr/bin/python
 
 
 ### 2. Install pip for Python 2.7 and required libraries
