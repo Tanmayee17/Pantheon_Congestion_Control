@@ -133,10 +133,7 @@ Each run will generate:
 - `*_datalink_delay_run1.png` → Delay vs Time
 - `*_stats_run1.log` → Contains average RTT, 95th percentile delay, loss rate, and throughput
 - `pantheon_summary_mean.pdf` & `.svg` → Final summary of all protocols
-  ```bash
-  python src/analysis/report.py --data-dir results_50mbps_10ms
-  ```
-
+  
 ---
 
 ## Reproducibility
